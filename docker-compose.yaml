@@ -4,7 +4,7 @@ services:
   centos-c:
     hostname: centos-c
     container_name: centos-c
-    image: spurin/diveintoansible:centos
+    image: sahanebhushan7/ansible:ansible
     ports: 
      - ${CENTOSC_PORT_SSHD}:22
      - ${CENTOSC_PORT_TTYD}:7681
